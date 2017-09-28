@@ -45,12 +45,12 @@ $det = $rows["details"];
 $loc = $rows["location"];
 $img1 = $rows["img1"];
 
-$prii = number_format($pri);
+$prii = $pri;
 echo '<div class="row">
                 <div class="col-lg-4 col-sm-5"><img src="admin/'.$img1.'" class="img-responsive img-circle" alt="properties"></div>
                 <div class="col-lg-8 col-sm-7">
                   <h5><a href="property-detail.php?id='.$idt.'">'.$det.'</a></h5>
-                  <p class="price"> UGX : '.$prii.'</p> </div>
+                  <p class="price">: '.$prii.'</p> </div>
   </div>';}}
 
 ?>
@@ -90,8 +90,8 @@ $img1 = $rows["img1"];
 $img2 = $rows["img2"];
 $img3 = $rows["img3"];
 $img4 = $rows["img4"];
-$pri = number_format($pris);
-
+//$pri = number_format($pris);
+$pri =$pris;
 ?>
 <h2><?php echo $tit?></h2>
 <div class="row">
@@ -200,7 +200,7 @@ $pri = number_format($pris);
   <div class="col-lg-4">
   <div class="col-lg-12  col-sm-6">
 <div class="property-info">
-<p class="price"><?php echo 'UGX '.$pri?></p>
+<p class="price"><?php echo ''.$pri?></p>
   <p class="area"><span class="glyphicon glyphicon-map-marker"></span><?php echo $loc?></p>
   
   <!--div class="profile">

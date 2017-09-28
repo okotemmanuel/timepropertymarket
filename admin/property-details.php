@@ -124,7 +124,7 @@ $img4 = $rows["img4"];
   <div class="col-lg-4">
   <div class="col-lg-12  col-sm-6">
 <div class="property-info">
-<p class="price"><?php echo 'UGX '.$pri?></p>
+<p class="price"><?php echo ''.$pri?></p>
   <p class="area"><span class="glyphicon glyphicon-map-marker"></span><?php echo $loc?></p>
   
   <div class="profile">

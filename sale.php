@@ -226,13 +226,13 @@ $pri = $rows["price"];
 $det = $rows["details"];
 $loc = $rows["location"];
 $img1 = $rows["img1"];
-$pri = number_format($pri);
+$pri =$pri;
 
 echo '<div class="row">
                 <div class="col-lg-4 col-sm-5"><img src="admin/'.$img1.'" class="img-responsive img-circle" alt="properties"></div>
                 <div class="col-lg-8 col-sm-7">
                   <h5><a href="property-detail.php?id='.$idt.'">'.$tit.'</a></h5>
-                  <p class="price"> UGX : '.$pri.'</p> </div>
+                  <p class="price">: '.$pri.'</p> </div>
   </div>';}}
 
 ?>
@@ -278,14 +278,14 @@ $titt= substr($tit,0,$poss );
 }else{
 	$titt = $tit;
 }
-$pri = number_format($pri);
+$pri = $pri;
 echo     '<div class="col-lg-4 col-sm-6">
       <div class="properties">
         <div class="image-holder">'.'<img src="admin/'.$img1.'" class="img-responsive" alt="properties">'.'
           <div class="status sold"></div>
         </div>
         <h4 ><a href="property-detail.php">'.$titt.'...</a></h4>
-        <p class="price">Price:UGX '.$pri.'</p>
+        <p class="price">Price:'.$pri.'</p>
         
 		<a class="btn btn-primary" href="property-detail.php?id='.$idt.'">View Details'.'</a>
       </div>
@@ -333,14 +333,14 @@ $img1 = $rows["img1"];
 $img2 = $rows["img2"];
 $img3 = $rows["img3"];
 $img4 = $rows["img4"];
-$pri = number_format($pri);
+$pri = $pri;
 echo     '<div class="col-lg-4 col-sm-6">
       <div class="properties">
         <div class="image-holder">'.'<img src="admin/'.$img1.'" class="img-responsive" alt="properties">'.'
           <div class="status sold"></div>
         </div>
         <h4><a href="property-detail.php">'.$tit.'</a></h4>
-        <p class="price">Price:UGX '.$pri.'</p>
+        <p class="price">Price: '.$pri.'</p>
         
 		<a class="btn btn-primary" href="property-detail.php?id='.$idt.'">View Details'.'</a>
       </div>

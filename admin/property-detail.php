@@ -50,7 +50,7 @@ echo '<div class="row">
                 <div class="col-lg-4 col-sm-5"><img src="'.$img1.'" class="img-responsive img-circle" alt="properties"></div>
                 <div class="col-lg-8 col-sm-7">
                   <h5><a href="property-detail.php?id='.$idt.'">'.$det.'</a></h5>
-                  <p class="price"> UGX : '.$pri.'</p> </div>
+                  <p class="price">: '.$pri.'</p> </div>
   </div>';}}
 
 ?>
@@ -149,7 +149,7 @@ $img4 = $rows["img4"];
   <div class="col-lg-4">
   <div class="col-lg-12  col-sm-6">
 <div class="property-info">
-<p class="price"><?php echo 'UGX '.$pri?></p>
+<p class="price"><?php echo ''.$pri?></p>
   <p class="area"><span class="glyphicon glyphicon-map-marker"></span><?php echo $loc?></p>
   
   <div class="profile">

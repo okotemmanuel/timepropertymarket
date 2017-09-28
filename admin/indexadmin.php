@@ -162,7 +162,7 @@ echo ' <div class="properties">
           <div class="status sold"></div>
         </div>
         <h4><a href="property-detail.php">'.$titt.'...</a></h4>
-        <p class="price">Price UGX:'.$pri.'</p>
+        <p class="price">Price:'.$pri.'</p>
         <!--div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">5</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div-->
         <a class="btn btn-primary" href="property-detail.php?id='.$idt.'">View Details</a>
   </div>';}}
@@ -230,7 +230,7 @@ $img1 = $rows["img1"];
                 <div class="col-lg-4">'.'<img src="'.$img1.'" class="img-responsive" alt="properties"/></div>
                 <div class="col-lg-8">
                   <h5><a href="property-detail.php">'.$tit.'</a></h5>
-                  <p class="price">UGX :'.$pri.'</p>
+                  <p class="price">:'.$pri.'</p>
                   <a href="property-detail.php?id='.$idt.'" class="more">More Detail</a> </div>
               </div>
             </div>';

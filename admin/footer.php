@@ -11,7 +11,7 @@
             <div class="col-lg-3 col-sm-3">
                    <h4>Information</h4>
                    <ul class="row">
-				      <li class="col-lg-12 col-sm-12 col-xs-3"><a href="indexadmin.php">About</a></li>
+				<li class="col-lg-12 col-sm-12 col-xs-3"><a href="home.php">Home</a></li>
                 <li class="col-lg-12 col-sm-12 col-xs-3"><a href="about.php">About</a></li>
                 <!--li class="col-lg-12 col-sm-12 col-xs-3"><a href="agents.php">Agents</a></li>         
                 <li class="col-lg-12 col-sm-12 col-xs-3"><a href="blog.php">Blog</a></li-->
@@ -23,16 +23,16 @@
                     <h4>Newsletter</h4>
                     <p>Get notified about the latest properties in our marketplace.</p>
                     <form class="form-inline" role="form">
-                            <input type="text" placeholder="Enter Your email address" class="form-control">
-                                <button class="btn btn-success" type="button">Notify Me!</button></form>
+                            <!--input type="text" placeholder="Enter Your email address" class="form-control"-->
+                                <a href="contact.php"><button class="btn btn-success" type="button">Notify Me!</button></a></form>
             </div>
             
             <div class="col-lg-3 col-sm-3">
                     <h4>Follow us</h4>
-                    <a href="#"><img src="images/facebook.png" alt="facebook"></a>
-                    <a href="#"><img src="images/twitter.png" alt="twitter"></a>
-                    <a href="#"><img src="images/linkedin.png" alt="linkedin"></a>
-                    <a href="#"><img src="images/instagram.png" alt="instagram"></a>
+                    <a target="_blank" href="www.facebook.com/timepropertymarket"><img src="images/facebook.png" alt="facebook"></a>
+                    <a href="twitter.com/timepropertymarket"><img src="images/twitter.png" alt="twitter"></a>
+                    <a href="linkedin/timepropertymarket"><img src="images/linkedin.png" alt="linkedin"></a>
+                    <a href="instagram.com/timepropertymarket"><img src="images/instagram.png" alt="instagram"></a>
             </div>
 
              <div class="col-lg-3 col-sm-3">
@@ -40,11 +40,11 @@
                     <p><b>TIME PROPERTY MARKET.</b><br>
 <span class="glyphicon glyphicon-map-marker"></span> KITINTALE ,KAMPALA ,UGANDA <br>
 <span class="glyphicon glyphicon-envelope"></span> tmepropertymarket@yahoo.com<br>
-<span class="glyphicon glyphicon-earphone"></span> +256 77............</p>
+<span class="glyphicon glyphicon-earphone"></span> +256 780982666 / +256 701448866</p>
             </div>
         </div>
 <p class="copyright">Copyright 2017. All rights reserved.	</p>
-<a href="../index.php">ADMIN LOGOUT</a>
+<a href="login.php">ADMIN LOGIN</a>
 
 
 </div></div>
@@ -79,7 +79,7 @@
         <div class="col-sm-6">
           <h4>New User Sign Up</h4>
           <p>Join today and get updated with all the properties deal happening around.</p>
-          <button type="submit" class="btn btn-info"  onclick="window.location.href='register.php'">Join Now</button>
+          <a href="contact.php"><button type="submit" class="btn btn-info" >Join Now</button></a>
         </div>
 
       </div>
