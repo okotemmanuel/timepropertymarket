@@ -304,7 +304,7 @@ $titt= substr($tit,0,$poss );
 $prii = $pri;
 
 echo ' <div class="properties">
-        <div class="image-holder"><img src="admin/'.$img1.'" class="img-responsive" alt="properties"/>
+        <div class="image-holder"><img style="height:150px;" src="admin/'.$img1.'" class="img-responsive" alt="properties"/>
           <div class="status sold"></div>
         </div>
         <h4><a href="property-detail.php">'.$titt.'...</a></h4>

@@ -30,7 +30,7 @@ else{
 
 if(empty($_POST['pwd'])){$pwderr ="password is empty";}
 else{
-	if($_POST['pwd'] =='222xxx333yyy'){
+	if($_POST['pwd'] =='44x88y66t'){
 			$pwd = $_POST['pwd'];
 	}
 	else{

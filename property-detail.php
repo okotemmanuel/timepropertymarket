@@ -49,7 +49,7 @@ $prii = $pri;
 echo '<div class="row">
                 <div class="col-lg-4 col-sm-5"><img src="admin/'.$img1.'" class="img-responsive img-circle" alt="properties"></div>
                 <div class="col-lg-8 col-sm-7">
-                  <h5><a href="property-detail.php?id='.$idt.'">'.$det.'</a></h5>
+                  <h5><a href="property-detail.php?id='.$idt.'">'.$tit.'</a></h5>
                   <p class="price">: '.$prii.'</p> </div>
   </div>';}}
 
@@ -219,8 +219,7 @@ $pri =$pris;
 
 
   <h6><span class="glyphicon glyphicon-envelope"></span> Post Enquiry</h6>
-  <form method="POST"  action="toom.php"> 
-        
+<form action="propemail.php" method="POST">  
 			 <input name="idt" type="hidden" value="<?php echo $idt?>"/>
                 <input name="email" type="text" class="form-control" placeholder="your Email"/>
                 <input name="number" type="text" class="form-control" placeholder="your Telephone number"/>

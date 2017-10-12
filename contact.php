@@ -10,16 +10,18 @@
 <?php
 $success="";
  if ($_SERVER["REQUEST_METHOD"] == "POST") {
-$nam = $_POST['name'];	
+	
 $email = $_POST['email'];
 $number = $_POST['number'];
 $msgg = $_POST['mess'];
 // use wordwrap() if lines are longer than 70 characters
-$msg =$nam.'<br>'.$email.'<br>'.$number.'<br>'.$msgg ;
+//$msg =$nam.'<br>'.$email.'<br>'.$number.'<br>'.$msgg ;
 // send email
-mail("okotemmanuel@yahoo.com","Message",$msg);
-	
-	$success="Message has been sent";
+  // header("location:http://www.webranker.orgfree.com/file/email.php?mess=$msgg&email=$email&number=$number");
+//exit;
+echo("<script>location.href = 'http://www.webranker.orgfree.com/file/email.php?mess=$msgg&email=$email&number=$number'</script>");
+	exit;
+
 }
 
 ?>
@@ -31,7 +33,6 @@ mail("okotemmanuel@yahoo.com","Message",$msg);
   <?php echo $success?>
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
 
-                <input type="text" name="name" class="form-control" placeholder="Full Name">
                 <input type="text" name="email" class="form-control" placeholder="Email Address">
                 <input type="text" name="number" class="form-control" placeholder="Contact Number">
                 <textarea rows="6" name="mess" class="form-control" placeholder="Message"></textarea>

@@ -285,7 +285,7 @@ $titt= substr($tit,0,$poss );
 $pri = $pri;
 echo     '<div class="col-lg-4 col-sm-6">
       <div class="properties">
-        <div class="image-holder">'.'<img src="admin/'.$img1.'" class="img-responsive" alt="properties">'.'
+        <div class="image-holder">'.'<img style="height:200px;" src="admin/'.$img1.'" class="img-responsive" alt="properties">'.'
           <div class="status sold"></div>
         </div>
         <h4><a href="property-detail.php">'.$titt.'...</a></h4>
@@ -343,7 +343,7 @@ $titt= substr($tit,0,$poss );
 $pri = number_format($pri);
 echo     '<div class="col-lg-4 col-sm-6">
       <div class="properties">
-        <div class="image-holder">'.'<img src="admin/'.$img1.'" class="img-responsive" alt="properties">'.'
+        <div class="image-holder">'.'<img style="height:200px;" src="admin/'.$img1.'" class="img-responsive" alt="properties">'.'
           <div class="status sold"></div>
         </div>
         <h4><a href="property-detail.php">'.$titt.'</a></h4>
