@@ -4,6 +4,7 @@
 $id = $_GET['idt'];
 
 $mess = $_GET['mess'];
+$mess =  str_replace("%20","",$mess);
 $subject='Need Property';
 $our ='okotemmanuel22@yahoo.com';
 

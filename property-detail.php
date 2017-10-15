@@ -1,4 +1,4 @@
-<?php include'header.php';?>
+<?php include'headerr.php';?>
 <!-- banner -->
 <?php
 // Start the session
@@ -51,7 +51,11 @@ echo '<div class="row">
                 <div class="col-lg-8 col-sm-7">
                   <h5><a href="property-detail.php?id='.$idt.'">'.$tit.'</a></h5>
                   <p class="price">: '.$prii.'</p> </div>
-  </div>';}}
+  </div>
+   <meta name="description" content="'.$tit.','.$det.'">
+   <meta name="keywords"  content="'.$tit.','.$det.'">
+   '
+  ;}}
 
 ?>
 

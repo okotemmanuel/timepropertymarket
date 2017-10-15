@@ -3,8 +3,8 @@
 <head>
 <title>TIME PROPERTY MARKET</title>
 <meta charset="UTF-8" />
-<meta name="description" content="time property market uganda , dealing in house , land for sale and for rent in uganda">
 <meta name="keywords" content="time property market,real estate market in uganda,time property,houses for rent/sale in uganda,land for rent/sale in uganda,houses/land in uganda">
+
 <meta name="author" content="okot emmanuel">
 
  	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />

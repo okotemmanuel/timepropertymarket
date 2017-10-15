@@ -271,7 +271,7 @@ $img2 = $rows["img2"];
 $img3 = $rows["img3"];
 $img4 = $rows["img4"];
 //$tit = $tit.'hello i want kichen n fries';
-if(strlen($tit)>'20'){
+if(strlen($tit)>'17'){
 	$poss=strpos($tit , ' ', 17);
 $titt= substr($tit,0,$poss );
 	
