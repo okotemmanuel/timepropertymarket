@@ -2,7 +2,7 @@
 // Note : When creating a signature the URL should not have a trailing slash "/". But add the slash when sending the 
 // request. 
 $url = 'https://vendors.pay-leo.com/api/v2/test/deposit';
-$msisdn = "256779815657";
+$msisdn = "256785390647";
 $amount = "500"; 
 $transactionId =  rand(1000000, 99999999);
 $narration = "testing";
