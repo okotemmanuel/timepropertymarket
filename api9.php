@@ -30,7 +30,13 @@ $PostData = array(
 
 $postDatas = json_encode($PostData);
 $resp = postReq($postDatas);
-var_dump($resp); 	
+var_dump($resp); 
+echo '<br>';	
+print_r($resp);
+echo '<pre>
+'.$resp.'
+</pre>';
+
 
 function postReq($data){
  $url = "https://vendors.pay-leo.com/api/v2/test/deposit/";
