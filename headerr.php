@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>TIME PROPERTY MARKET</title>
+<title>THE MARIAN EXPRESS PROPERTY MARKET</title>
 <meta charset="UTF-8" />
 <meta name="keywords" content="time property market,real estate market in uganda,time property,houses for rent/sale in uganda,land for rent/sale in uganda,houses/land in uganda">
 

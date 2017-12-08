@@ -37,7 +37,7 @@
 
              <div class="col-lg-3 col-sm-3">
                     <h4>Contact us</h4>
-                    <p><b>TIME PROPERTY MARKET.</b><br>
+                    <p><b>THE MARIAN EXPRESS PROPERTY MARKET.</b><br>
 <span class="glyphicon glyphicon-map-marker"></span> KITINTALE ,KAMPALA ,UGANDA <br>
 <span class="glyphicon glyphicon-envelope"></span> tmepropertymarket@yahoo.com<br>
 <span class="glyphicon glyphicon-earphone"></span> +256 780982666 / +256 701448866</p>
