@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>TIME PROPERTY MARKET</title>
+<title>THE MARIAN EXPRESS PROPERTY MARKET</title>
 <meta charset="UTF-8" />
-<meta name="description" content="time property market uganda , dealing in house , land for sale and for rent in uganda">
+<meta name="description" content="THE MARIAN EXPRESS PROPERTY MARKET
+Hello, we are professional property agents,dealers,managers at most trusted level in Uganda ,
+Best Real Estate Agency in Uganda to do business with when you want knowledge and trust to 
+deliver what you want professionally and affordably. 
+In diligence in deep property knowledge,we are unbeatable. 
+We have never sold any property in the country ever since and you find problem with 
+that property.We have been in the business for the past 17 years
+ ">
 <meta name="keywords" content="time property market,real estate market in uganda,time property,houses for rent/sale in uganda,land for rent/sale in uganda,houses/land in uganda">
 <meta name="author" content="okot emmanuel">
 
